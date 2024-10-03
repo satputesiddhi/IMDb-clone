@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light grey for a clean look */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #2c3e50; /* Dark blue-gray */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ecf0f1; /* Light gray for contrast */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue-gray */
+    text-align: center; /* Center the title */
+}
+
+#search-input {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 20px; /* Space below the input */
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Slightly larger font */
+}
+
+#movie-list, #favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the movie cards */
+}
+
+.movie-card {
+    width: 220px; /* Slightly wider for better spacing */
+    background-color: #ffffff; /* White background for movie cards */
+    margin: 15px;
+    padding: 15px; /* Increased padding for a spacious look */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
+    transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.movie-card:hover {
+    transform: scale(1.03); /* Slightly scale up on hover */
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.movie-card h3 {
+    color: #34495e; /* Darker color for titles */
+    font-size: 18px; /* Increased font size for readability */
+    margin: 10px 0; /* Spacing above and below titles */
+}
+
+.movie-card p {
+    color: #7f8c8d; /* Lighter gray for movie year */
+    font-size: 14px; /* Consistent font size */
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #3498db; /* Bright blue */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 14px; /* Slightly larger font */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.more-info {
+    display: inline-block; /* Ensure proper spacing */
+    padding: 8px 15px;
+    margin-top: 10px; /* Space above the button */
+    background-color: #16a085; /* Teal color for a fresh look */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 14px; /* Consistent font size */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.more-info:hover {
+    background-color: #1abc9c; /* Slightly darker teal on hover */
+}
