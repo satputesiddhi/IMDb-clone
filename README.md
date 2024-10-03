@@ -1,6 +1,6 @@
 # IMDb-clone
 
-This project is a mini IMDB clone app built using **vanilla JavaScript** and styled with **CSS**. It allows users to search for movies using the **OMDB API**, add movies to a favorites list, and view detailed information about each movie.
+This project is a mini IMDB clone web application built using **vanilla JavaScript** and styled with **CSS**. It allows users to search for movies using the **OMDB API**, add movies to a favorites list, and view detailed information about each movie.
 
 ## Features
 
